@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style: none;
+
+}
+
+.xdyuan_container {
+    /*width: 500px;*/
+    /*height: 125px;*/
+    /**/
+    /*padding: 20px;*/
+    /*margin: 40px auto;*/
+    overflow: hidden;
+    position: relative;
+}
+
+.xdyuan_container > ol {
+    /*position: absolute;*/
+    overflow: hidden;
+    /*right: 0;*/
+    /*bottom: 5px;*/
+
+
+
+}
+.xdyuan_container > ol > li {
+    float: left;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    /* color: red; */
+    border-radius: 10px;
+    overflow: hidden;
+    text-indent: 100px;
+    background-color: #b3c1b3;
+
+}
+.xdyuan_container > ul {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0;
+    background-color: antiquewhite;
+    transition: transform .5s ease;
+    /*overflow: hidden;*/
+}
+
+.xdyuan_container > ul > li {
+    width: 100%;
+    height: 100%;
+    float: left;
+    position: absolute;
+}
+
+.xdyuan_container > ul > li > a {
+    display: block;
+}

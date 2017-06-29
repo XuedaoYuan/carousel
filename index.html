@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta charset="UTF-8">
+    <title>移动轮播</title>
+    <link rel="stylesheet" href="./dist/css/xdyuan_carousel.min.css">
+</head>
+<body>
+
+<div class="xdyuan_container">
+    <ul class="">
+        <li class="">
+            <a target="" href="#"><img class="" src="../image/1.jpg" alt="0"></a>
+        </li>
+        <li class="xdyuan_li">
+            <a target="" href="#"><img class="" src="../image/2.jpg" alt="1"></a>
+        </li>
+        <li class="xdyuan_li">
+            <a target="" href="#"><img class="" src="../image/3.jpg" alt="2"></a>
+        </li>
+        <li class="xdyuan_li">
+            <a target="" href="#"><img class="" src="../image/4.jpg" alt="3"></a>
+        </li>
+        <li class="xdyuan_li">
+            <a target="" href="#"><img class="" src="../image/1.jpg" alt="4"></a>
+        </li>
+        <li class="xdyuan_li">
+            <a target="" href="#"><img class="" src="../image/2.jpg" alt="5"></a>
+        </li>
+        <li class="xdyuan_li">
+            <a target="" href="#"><img class="" src="../image/3.jpg" alt="6"></a>
+        </li>
+        <li class="xdyuan_li">
+            <a target="" href="#"><img class="" src="../image/4.jpg" alt="7"></a>
+        </li>
+    </ul>
+
+
+
+</div>
+<script src="./node_modules/jquery/dist/jquery.js"></script>
+<script src="dist/js/xdyuan_carousel.min.js"></script>
+
+<script>
+    window.xdyuanCarouselInit({
+        containerIdentify : '.xdyuan_container',
+        effectiveDeltaX:80,
+        invalidDeltaY: 80,
+        interval : 5000, //毫秒
+        contaner_height : 175,
+        indexObj : {
+            right : 0,
+            bottom : 5,
+            isCenter : false,
+            currentBackgroundColor : 'orange',
+            backgroundColor : '#ccc'
+        }
+    });
+</script>
+
+
+</body>
+</html>
